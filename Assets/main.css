@@ -51,7 +51,7 @@ body {
 .instruction-text {
   font-size: 20px;
   position: absolute;
-  top: 330px;
+  top: 360px;
   left: 1090px;
   width: 200px;
   text-align: left;
@@ -59,9 +59,9 @@ body {
 
 .greet-header {
   position: absolute;
-  top: 192px;
+  top: 270px;
   left: 1035px;
-  font-size: 29px;
+  font-size: 23px;
   text-align: center;
   width: 300px;
 }
