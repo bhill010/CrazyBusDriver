@@ -13,21 +13,21 @@ body {
 
 .game-row {
   background-color: yellow;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  /*padding-bottom: 25px;
+  padding-top: 25px;*/
 }
 
 .header-row {
   background-color: black;
   color: white;
-  padding-top: 50px;
-  padding-bottom: 25px;
+  /*padding-top: 50px;
+  padding-bottom: 25px;*/
 }
 
 .footer-row {
   background-color: black;
   color: white;
-  padding-top: 25px;
+  padding-top: 10px;
   padding-bottom: 100px;
 }
 
@@ -41,14 +41,19 @@ body {
     font-size: 50px;
 }
 
-/*.timer-font {
+.timer-font {
   font-size: 50px;
-}*/
+  position: absolute;
+  top: 100px;
+  left: 1047px;
+}
 
 .instruction-text {
   text-align: center;
-  margin-top: 50px;
   padding: 5px;
   font-size: 20px;
-  margin-left: 200px;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  width: 200px;
 }
